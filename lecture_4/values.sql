@@ -1,5 +1,5 @@
 -- insert sample students
-INSERT INTO students (full_name, birth_name)
+INSERT INTO students (full_name, birth_year)
 VALUES ('Alice Johnson', 2005),
        ('Brian Smith', 2004),
        ('Carla Reyes', 2006),

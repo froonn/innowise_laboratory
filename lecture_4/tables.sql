@@ -2,7 +2,7 @@ CREATE TABLE IF NOT EXISTS students
 (
     id         INTEGER PRIMARY KEY AUTOINCREMENT, -- primary key
     full_name  TEXT,                              -- full name of the student
-    birth_name INTEGER                            -- year of birth
+    birth_year INTEGER                            -- year of birth
 );
 
 CREATE TABLE IF NOT EXISTS grades

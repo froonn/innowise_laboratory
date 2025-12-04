@@ -11,9 +11,9 @@ FROM students
 GROUP BY students.id;
 
 -- List all students born after 2004
-SELECT students.full_name, birth_name
+SELECT students.full_name
 FROM students
-WHERE students.birth_name > 2004;
+WHERE students.birth_year > 2004;
 
 -- Create a query that lists all subjects and their average grades
 SELECT grades.subject, AVG(grades.grade)

@@ -7,9 +7,9 @@ class BookBase(BaseModel):
     Base schema for a Book
     """
 
-    title: str
-    author: str
-    year: Optional[int] = None
+    title: str  # Title of the Book
+    author: str  # Author of the Book
+    year: Optional[int] = None  # Publication year of the Book (optional)
 
 
 class BookCreate(BookBase):
@@ -25,7 +25,7 @@ class BookResponse(BookBase):
     Schema for responding with Book data
     """
 
-    id: int
+    id: int  # ID field for the Book
 
     class Config:
         """
